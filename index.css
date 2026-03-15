@@ -1,0 +1,74 @@
+.logo {
+    width:150px;
+    
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    border:1px black solid;
+    background-color: rgb(152, 105, 38);
+}
+
+.nav-items > ul {
+    display:flex;
+    
+}
+
+.nav-items > ul > li{
+    list-style-type: none;
+    padding:10px;
+    margin:10px;
+}
+
+.body {
+    padding:20px;
+    background-color: rgb(237, 208, 159);
+}
+
+.food-img{
+   width:296px;
+    height:200px;
+}
+
+.card-details{
+    overflow-wrap: break-word;
+    flex-direction: column;
+    height:500px;
+
+}
+
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    justify-content: center;    
+}
+
+
+
+.restaurant-card{
+    padding:10px;
+    width:300px;
+    margin:10px;
+    background-color:rgb(243, 232, 199);
+
+}
+
+.restaurant-card:hover{
+    border: 1px solid black;;
+}
+
+
+
+.filter-button{
+    margin: 10px;
+    padding: 5px;
+}
+
+.log-button {
+    margin-top:18px;
+    width:70px;
+    height:fit-content;
+    padding-right:5px;
+}

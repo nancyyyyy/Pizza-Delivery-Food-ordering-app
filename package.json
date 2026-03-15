@@ -1,0 +1,23 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "react learning",
+  "license": "ISC",
+  "author": "Nancy Som",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "alias": {
+    "react-router/dom": "react-router/dist/production/dom-export.mjs"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1"
+  }
+}
