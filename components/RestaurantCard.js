@@ -5,9 +5,7 @@ const RestaurantCard= (props)=>{
 
    const { details } = props;
    const {name, cuisines, avgRatingString, costForTwo, cloudinaryImageId} = details?.card?.card?.info;
-
-
-   
+    
 
     return <div className="restaurant-card">
         <div className="card-details">

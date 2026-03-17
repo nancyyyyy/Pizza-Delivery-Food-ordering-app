@@ -23,7 +23,6 @@ const Body = () => {
       setFilteredRestaurants(json?.data?.cards.slice(3, 10));
     } catch (error) {
       console.error("Error fetching data:", error);
-      // Optionally set some fallback data or show an error message
     }
   }
 
